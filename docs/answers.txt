@@ -1,0 +1,64 @@
+10/24/2025 -- Git Lab Tutorials
+Feb, 2025 -- GitHub Account creation/setup
+
+Git hub repository:
+https://github.com/tpw200/assignment2.git
+
+1.)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/tpw200/assignment2.git
+   f4975e5..fddc8d4  master -> master
+
+2.)
+I used "git shortlog -n" to get the count for all contributors.
+There are 8 commits made so far in the repository.
+
+3.) 
+Using "git log -1 -p README.md" I got the last commit for README.md
+that modified it.
+
+4.)
+Git branches allow for easier development of new features without
+disturbing the main codebase.
+It also allows for multiple people to work on the same codebase with
+less conflict.
+
+5.) 
+"git log" gets all of the past commits and displays them with there
+messages.
+"git status" shows which files have been changed or added on the local
+repository and if they're staged for commit.
+
+6.)
+"git log Vehicle.h" will show all commits where Vehicle.h was included.
+
+7.)
+"git log --grep="file"" will return all commits where "file" was mentioned
+in the message.
+
+8.)
+Inheritance: When a class is derived from another class and shares methods
+and attributes.
+Polymorphism: When a method/function can be used by different classes or
+objects and behaves differently depending on what it is being used by.
+Encapsulation: The concept of putting all relevant data and methods that act
+on that data in the same object/class.
+
+9.)
+The main difference is that in Dictator and Lieutenant each developer doesn't
+have two of their own repositories (public/private) like in the Integration
+Manager workflow. Instead they push to "lieutenant" repositories.
+
+10.)
+A major benefit from using "Dicatator and Lieutenants" over "Centralized" is
+that there would be less merge conflicts and its much easier to coordinate.
+A "team" of developers could push to their own lieutenant with the features
+they specifically work on without interfering heavily with other groups and
+lieutenant repositories.
